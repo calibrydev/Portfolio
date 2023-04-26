@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav button{
+    display: none;
+}
+nav{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px; 
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+}
+#img{
+
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.two{
+    height: 250px;
+}
+.two h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.accounts::before{
+    content: "Accounts";
+    margin-left: -200px;
+}
+
+.fa::before{
+    content: "FA";
+    margin-left: -200px;
+}
+
+.audit::before{
+    content: "Audit";
+    margin-left: -200px;
+}
+.credit::before{
+    content: "Credit";
+    margin-left: -200px;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.four>div{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.five{
+    height: 270px;
+}
+.five h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.five p{
+    text-align: center;
+    margin-top: 20px;
+}
+.five .links{
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width:500px){
+    
+    .five .links{
+        margin-left: 500px;
+    }
+    #open{
+        display: none;
+    }
+    .paragraph{
+        height: 150px;
+        margin-top: -60px;
+        text-align: center;
+        width: 600px;
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+    .paragraph p{
+        font-size: 3px;
+    }
+.two h1{
+    font-size: 28px;
+}
+.one{
+    margin-top: -30px;
+}
+.headings{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.headings p{
+    font-size: 30px;
+}
+.headings h1{
+    font-size: 35px;
+}
+    .three{
+        margin-left: 40%;
+        height: 300px;
+        margin-top: 0px;
+        position: relative;
+    }
+    .three h1{
+        margin-left: 10%;
+        margin-bottom: 25px;
+        margin-top: 80px;
+    }
+    .tree{
+           margin-top: 30px; 
+        width: 40%;
+        margin-left: 30%;
+        text-align: center;
+        padding-bottom: 14px;
+        font-size: 18px;
+    }
+    .tree>div{
+        margin-bottom: 10px;
+    }
+    .seven{
+         margin-left: 30%;
+        width: 40%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .seven p,h1{
+        font-size:18px;
+        margin-bottom: 20px;
+
+            }
+}
+.img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+.box{
+    width: 250px;
+    height: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+.accounts{
+    position: relative;
+    margin-left: 100 px;
+}
+.color{
+    margin-left: -10px;
+    margin-top: -29px;
+    position: absolute;
+    background-color: lightskyblue;
+
+    width: 78%;
+    height: 100%;
+}
+.fa{
+    position: relative;
+}
+.audit{
+    position: relative;
+}
+.credit{
+    position: relative;
+}
+.colorf{
+    margin-left: -10px;
+    margin-top: -29px;
+    position: absolute;
+    background-color: lightskyblue;
+
+    width: 88%;
+    height: 100%;
+}
+
+.colora{
+    margin-left: -10px;
+    margin-top: -29px;
+    position: absolute;
+    background-color: lightskyblue;
+
+    width: 88%;
+    height: 100%;
+}
+
+.colorc{
+    margin-left: -10px;
+    margin-top: -29px;
+    position: absolute;
+    background-color: lightskyblue;
+    width: 68%;
+    height: 100%;
+}
+.two p{
+    font-size: 23px;
+    margin-top: 100px;
+}
+@media only screen and (max-width:500px) {
+    #open{
+        margin-left: 2px;
+        padding: 10px;
+        width: 60px;
+        height: 40px;
+        background-color: white;
+    }
+    #open i{
+        font-size: 20px;
+        margin-top: -10px;
+        color: black;
+        text-align: center;
+        margin-left: 70%;
+        position: absolute;
+    }
+    .paragraph p{
+        font-size: 20px;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+    .paragraph{
+        width: 88%;
+        margin-left: 30px;
+        margin-top: -80px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .box{
+        background-color: white;
+        color: black;
+        margin-left: 600px;
+    }
+    .nav{
+        background-color:black;
+        width: 100%;
+        padding: 15px;
+        position: fixed;
+        position: absolute;
+    }
+    .container button{ 
+        background-color: black;
+        color: white;
+        position: absolute;
+        border: none;
+        padding: 10px;
+        margin-left: 60px;
+        border-radius: 5px;
+        margin-top: 510px;
+        margin-bottom: 10px;
+        display: block;
+    }
+  
+    #close{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    nav{
+        z-index: 1000;
+        display: none;
+        position: fixed;
+        color: white;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        margin-top: 450px;
+        height: 900px;
+        margin-left: -15px ;
+    }
+    .nav a{
+        font-size: 20px;
+        text-decoration: none;
+        padding-bottom: 10px;
+        color: white;
+        margin-left: 35%;
+        padding-bottom: 50px;
+    }
+
+    .nav a:first-of-type,#close{
+        margin-top: 120px;
+    }
+    .container{
+        position: absolute;
+        margin-top: -500px;
+    }
+    .one{
+        position: relative;
+        margin-top: 600px;
+
+    }
+    .one p{
+        margin-left: 130px;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    #img{
+        margin-left: 15px;
+        margin-top: 100px;
+        width: 90%;
+        height: 55%;
+
+    }
+    .three{
+        margin-top: 150px;
+        height: 300px;
+    }
+    .three>div{
+        margin-left: 130px;
+        margin-right: 10px;
+        width: 60%;
+        height: 5px;
+    }
+    .three h1{
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+   
+    
+.fa::before{
+    content: "FA";
+    margin-left: -90px;
+}
+.accounts::before{
+    content: "Accounts";
+    margin-left: -90px;
+}
+.audit::before{
+    content: "Auditing";
+    margin-left: -90px;
+
+}
+.credit::before{
+    content: "Accounts";
+    margin-left: -90px;
+}
+
+    .four {
+        display: flex;
+        flex-direction: column;
+    }
+    .four>div{
+        margin-right: 10px;
+        margin-left: 150px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    
+    }
+    .five  .links{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .five h1{
+        margin-left: 138px;
+        text-align: start;
+    }
+    .five p{
+        font-size: 19px;
+        margin-left: 100px;
+        text-align: start;
+    }
+    .five p:first-of-type{
+        margin-left: 70px;
+    }
+    .six{
+        margin-left: 0px;
+    }
+    .tree{
+        width: 90%;
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }   
+    .tree>div{
+        margin-bottom: 10px;
+    }
+    .tree h1{
+        font-size: 25px;
+    }
+    .tree p,h1{
+        text-align: center;
+    }
+    .box1{
+        text-align: center;
+    }
+    .circle{
+        margin-top: 20px;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: red;
+    }
+    .seven{
+        text-align: center;
+        padding: 10px;
+    }
+    .seven p{
+        font-size: 17px;
+    }
+    .seven p,h1{
+        margin-bottom: 10px;
+
+    }
+}
